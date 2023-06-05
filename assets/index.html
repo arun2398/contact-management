@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>contact Book</title>
+  </head>
+  <body>
+    <section class="contactBook">
+      <div class="contact">
+        <h1>Contact Book</h1>
+      </div>
+      <div class="addContact">
+        <div class="userDetails">
+          <label for="userName">Name :</label>
+          <input id="userName" type="text" placeholder="name" />
+          <label for="number">Number :</label>
+          <input
+            id="contactNumber"
+            type="number"
+            value=""
+            placeholder="phone number"
+            required="required"
+            maxNumber="10"
+          />
+        </div>
+        <button id="addContactBtn">Add</button>
+      </div>
+    </section>
+    <section class="contactlist">
+      <div class="list">
+        <h2>Contact List</h2>
+      </div>
+      <div class="listContact">
+        <ol id="listContainer"></ol>
+      </div>
+    </section>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>

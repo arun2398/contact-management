@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background: linear-gradient(45deg, #4696c5, transparent);
+}
+
+.contact {
+  max-width: 550px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: rgba(248, 110, 110, 0.774);
+  border-radius: 10px;
+}
+.contact h1 {
+  text-decoration: underline;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.addContact {
+  max-width: 550px;
+  margin: 20px auto 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: wheat;
+  border-radius: 10px;
+  padding: 20px;
+}
+.userDetails input {
+  display: block;
+  margin-right: 100px;
+}
+/* button {
+  font-size: 28px;
+} */
+
+.contactlist {
+  text-align: center;
+  margin: 0px auto;
+  max-width: 550px;
+  background: rgb(152, 209, 135);
+  border-radius: 10px;
+}
+.edit {
+  width: 10%;
+  height: 10px;
+}
